@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, width=1920, initial-scale=1.0"/>
+    <title>HODU</title>
+    <link rel="stylesheet" href="./css/style_mobile.css">
+</head>
+
+
+<body>
+
+<header>
+    <div id="header_logo">
+        <a href="#">
+            <img width="22.18px" height="25.07px" src="./image/logo/h.png"/>
+            <img width="26.81px" height="28px" src="./image/logo/o.png"/>
+            <img width="23.96px" height="25.09px" src="./image/logo/d.png"/>
+            <img width="22.69px" height="25.39px" src="./image/logo/u.png"/>
+        </a>
+    </div>
+
+    <button id="menu-btn">
+        <img src="./image/ect/menu.png">
+    </button>
+
+</header>
+
+
+<!--메뉴 모달창-->
+<div class="menu">
+    <div id="menu-side">
+
+        <button id="back-btn">
+            <img src="./image/ect/back.png">
+        </button>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Support</a></li>
+            <li>
+                <button class="button">
+                    <p>Download</p>
+                </button>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+<main>
+    <div id="box-cat">
+        <p id="lorem-main1"  class="strong-font">
+            Lorem Ipsum is simply <br>
+            dummy text <br>
+            of the printing and
+        </p>
+        <p id="lorem-sub1">
+            Lorem Ipsum is simply dummy text<br>
+            of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's<br>
+            standard dummy text ever since the 1500s,<br>
+            when an unknown
+        </p>
+        <button id="dummy-button1" class="strong-font button">
+            <p>Download</p>
+        </button>
+        <img src="./image/cat/box-cat.png">
+    </div>
+
+    <div id="laying-cat">
+        <img width="660px" height="390px" src="./image/cat/laying-cat.png">
+        <p id="lorem-main2" class="strong-font">Lorem Ipsum is simply<br>
+            dummy text of the printing<br>
+            and dummy text
+        </p>
+        <p id="lorem-sub2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+    </div>
+
+    <div id="multi-cat">
+        <p id="multi-cat-main" class="strong-font">
+            dummy text of the printing<br> and dummy
+        </p>
+        <p id="multi-cat-sub">
+            Lorem Ipsum is simply <span>dummy text</span> of the<br> printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s,<br> when an unknown
+        </p>
+
+        <!--   무한 고양이 -->
+        <div id="multi-cat-list">
+            <div class="multi-cat-img">
+                <img src="./image/cat/multi-cat/cat_1.png">
+                <img src="./image/cat/multi-cat/cat_2.png">
+                <img src="./image/cat/multi-cat/cat_3.png">
+                <img src="./image/cat/multi-cat/cat_4.png">
+                <img src="./image/cat/multi-cat/cat_5.png">
+                <img src="./image/cat/multi-cat/cat_6.png">
+            </div>
+        </div>
+
+        <div id="multi-cat-continue">
+            <p>
+                Continue exploring HODU
+            </p>
+            <button class="button more-cat-btn">
+                <p class="strong-font">Show more</p>
+            </button>
+        </div>
+
+    </div>
+
+    <hr width="326px" size="1px" color="#C4C4C4">
+
+    <!--        지도 api-->
+    <div id="map-api">
+        <p id="map-main">
+            Where you’ll be
+        </p>
+        <p id="map-sub">
+            330, Cheomdan-ro, Jeju-si, Jeju-do,<br> Republic of Korea
+        </p>
+        <div id="map">
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2bcebed8ba94a54d31daf93f73a70d82"></script>
+        </div>
+    </div>
+
+    <div id="subscribe">
+        <div id="sub-text">
+            <p id="sub-main" class="strong-font">
+                Subscribe to our<br> Blog post
+            </p>
+            <p id="sub-sub">
+                Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's<br> standard dummy text
+            </p>
+        </div>
+        <div id="enter-email">
+            <label id="email-img" for="email"><img src="./image/ect/mail.png"></label>
+            <input id="email" type="email" placeholder="Enter your e-mail address"/>
+            <input type="submit" value="Subscribe" id="sub-btn" class="strong-font button">
+        </div>
+
+    </div>
+
+    <!--    하단 고양이 이미지-->
+    <div id="crop-image">
+        <img src="./image/cat/footer-cat.png"/>
+    </div>
+</main>
+
+<!--    구독 모달창-->
+<div class="modal">
+    <div id="modal-contents">
+        <img id="modal-bgr" src="./image/modal/modal-bgr.png">
+        <img id="modal-cat" src="./image/modal/modal-cat.png">
+        <p id="modal-main-text" class="strong-font">
+            Thank you!
+        </p>
+        <p id="modal-sub-text">
+            Lorem Ipsum is simply dummy<br> text of the printing industry.
+        </p>
+        <button type="button" class="close-btn button strong-font">
+            OK! I Love HODU
+        </button>
+    </div>
+</div>
+
+
+<!--    푸터-->
+<footer>
+
+    <div id="footer-menu">
+        <ul>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/blog">Blog</a>
+            </li>
+            <li>
+                <a href="/support">Support</a>
+            </li>
+            <li>
+                <a href="/terms-of-use">Terms of Use</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="footer_logo">
+        <a href="#">
+            <img width="27.01px" height="30.44px" src="./image/logo/h.png"/>
+            <img width="32.64px" height="34px" src="./image/logo/o.png"/>
+            <img width="29.16px" height="30.47px" src="./image/logo/d.png"/>
+            <img width="27.62px" height="30.84px" src="./image/logo/u.png"/>
+        </a>
+    </div>
+
+    <div id="footer-social">
+        <ul id="icon-list">
+            <li>
+                <a href="/blog">
+                    <img class="social-icon"src="./image/social/blog.png"/>
+                    <img class="background-icon"src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="/instagram">
+                    <img class="social-icon" src="./image/social/instagram.png"/>
+                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="/facebook">
+                    <img class="social-icon" src="./image/social/facebook.png"/>
+                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="/youtube">
+                    <img class="social-icon" width="24px" height="24px" src="./image/social/youtube.png"/>
+                    <img class="background-icon" width="42px" height="42px" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+
+<script src="./script/menuModal.js"></script>
+<script src="./script/subscribeModal.js"></script>
+<script src="./script/kakaoMap.js"></script>
+<script src="./script/moreCat.js"></script>
+
+</body>
+</html>

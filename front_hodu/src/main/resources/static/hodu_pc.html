@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, width=1920, initial-scale=1.0"/>
+    <title>HODU</title>
+    <link rel="stylesheet" href="./css/style_pc.css">
+</head>
+
+
+<body>
+
+<header>
+    <nav id="header_logo">
+        <a href="#">
+            <img width="31.35px" height="35.81px" src="./image/logo/h.png"/>
+            <img width="37.89px" height="40px" src="./image/logo/o.png"/>
+            <img width="33.85px" height="35.85px" src="./image/logo/d.png"/>
+            <img width="32.06px" height="36.28px" src="./image/logo/u.png"/>
+        </a>
+    </nav>
+
+    <div id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Support</a></li>
+            <li>
+                <button class="button">
+                    <p>Download</p>
+                </button>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<!--    모달창-->
+<div class="modal">
+    <div id="modal-contents">
+        <img id="modal-bgr" src="./image/modal/modal-bgr.png">
+        <img id="modal-cat" src="./image/modal/modal-cat.png">
+        <p id="modal-main-text" class="strong-font">
+            Thank you!
+        </p>
+        <p id="modal-sub-text">
+            Lorem Ipsum is simply dummy text of the printing industry.
+        </p>
+        <button type="button" class="close-btn button strong-font">
+            OK! I Love HODU
+        </button>
+    </div>
+</div>
+
+<main>
+    <article id="box-cat">
+        <img src="./image/cat/box-cat.png">
+        <p id="lorem-main1"  class="strong-font">
+            Lorem Ipsum is simply <br>
+            dummy text of the printing and
+        </p>
+        <p id="lorem-sub1">
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown
+        </p>
+        <button id="dummy-button1" class="strong-font button">
+            <p>Download</p>
+        </button>
+    </article>
+
+    <div id="laying-cat">
+        <img width="660px" height="390px" src="./image/cat/laying-cat.png">
+        <p id="lorem-main2" class="strong-font">Lorem Ipsum is simply<br>
+            dummy text of the printing<br>
+            and dummy text
+        </p>
+        <p id="lorem-sub2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+    </div>
+
+    <div id="multi-cat">
+
+        <p id="multi-cat-main" class="strong-font">
+            dummy text of the printing and dummy
+        </p>
+        <p id="multi-cat-sub">
+            Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+        </p>
+
+        <!--   무한 고양이 -->
+        <div id="multi-cat-list">
+            <div class="multi-cat-img">
+                <img src="./image/cat/multi-cat/cat_1.png">
+                <img src="./image/cat/multi-cat/cat_2.png">
+                <img src="./image/cat/multi-cat/cat_3.png">
+                <img src="./image/cat/multi-cat/cat_4.png">
+                <img src="./image/cat/multi-cat/cat_5.png">
+                <img src="./image/cat/multi-cat/cat_6.png">
+            </div>
+        </div>
+
+        <div id="multi-cat-continue">
+            <p>
+                Continue exploring HODU
+            </p>
+            <button class="button more-cat-btn">
+                <p class="strong-font">Show more</p>
+            </button>
+        </div>
+
+    </div>
+
+    <hr width="1278px" size="1px" color="#C4C4C4">
+
+    <!--        지도 api-->
+    <div id="map-api">
+        <p class="strong-font">
+            Where you’ll be
+        </p>
+        <p id="map-text">
+            330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+        </p>
+        <div id="map" class="custom_zoomcontrol">
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2bcebed8ba94a54d31daf93f73a70d82"></script>
+        </div>
+    </div>
+
+    <!--        페이지 상단 이동 고정 버튼 -->
+    <div>
+        <button id="scroll-top">
+            <img id="top-bgr" src="./image/ect/background.png">
+            <img id="top-vector" src="./image/ect/Vector.png">
+            <img id="top-vector-hover" src="./image/ect/Vector_hover.png">
+        </button>
+    </div>
+
+    <div id="subscribe">
+        <div id="sub-text">
+            <p id="sub-main" class="strong-font">
+                Subscribe to our Blog post
+            </p>
+            <p id="sub-sub">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text
+            </p>
+        </div>
+        <div id="enter-email">
+            <label id="email-img" for="email"><img src="./image/ect/mail.png"></label>
+            <input id="email" type="email" placeholder="Enter your e-mail address"/>
+            <input type="submit" value="Subscribe" id="sub-btn" class="strong-font button">
+        </div>
+
+    </div>
+
+    <!--    하단 고양이 이미지-->
+    <div id="crop-image">
+        <img src="./image/cat/footer-cat.png"/>
+    </div>
+</main>
+
+
+<!--    푸터-->
+<footer>
+
+    <div id="footer_logo">
+        <a href="#">
+            <img width="54.5px" height="62.67px" src="./image/logo/h.png"/>
+            <img width="65.86px" height="70px" src="./image/logo/o.png"/>
+            <img width="58.85px" height="62.73px" src="./image/logo/d.png"/>
+            <img width="55.74px" height="63.49px" src="./image/logo/u.png"/>
+        </a>
+    </div>
+
+    <div id="footer-social">
+        <ul id="icon-list">
+            <li>
+                <a href="/blog">
+                    <img class="social-icon" src="./image/social/blog.png"/>
+                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="/instagram">
+                    <img class="social-icon" src="./image/social/instagram.png"/>
+                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="/facebook">
+                    <img class="social-icon" src="./image/social/facebook.png"/>
+                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="/youtube">
+                    <img class="social-icon" src="./image/social/youtube.png"/>
+                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+</footer>
+
+<script src="./script/menuModal.js"></script>
+<script src="./script/subscribeModal.js"></script>
+<script src="./script/kakaoMap.js"></script>
+<script src="./script/moreCat.js"></script>
+<script src="./script/scrollTop.js"></script>
+
+</body>
+</html>
